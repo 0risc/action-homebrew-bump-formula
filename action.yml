@@ -99,4 +99,5 @@ runs:
         HOMEBREW_BUMP_TAG: ${{inputs.tag}}
         HOMEBREW_BUMP_REVISION: ${{inputs.revision}}
         HOMEBREW_BUMP_FORCE: ${{inputs.force}}
+        HOMEBREW_TEST_BOT_AUTOBUMP: ${{inputs.force}}
         HOMEBREW_BUMP_LIVECHECK: ${{inputs.livecheck}}
